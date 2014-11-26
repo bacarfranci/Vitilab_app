@@ -1,0 +1,121 @@
+body {
+    background-color: #f8f8f8;
+}
+
+p{
+ color: #777
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-wrapper {
+    padding: 0 ;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+.modal-header img{
+ max-height: 35px  
+}
+
+.modal-header img, .modal-title{
+ display: inline;   
+}
+
+.modal-title{
+ padding-left: 5px;   
+}
+
+.modal .btn-custom{
+float:right;
+}
+
+@media (min-width: 992px) {
+.intro {
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background: url(../pics/delo.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+} 
+
+p{
+color: #fff    
+}}
+
+.intro-text{
+ padding-top: 15%;
+ color: #fff
+}
+
+.panel-default{
+;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 30px;
+    text-shadow:2px 2px 8px #191919
+}
+
+.form-group p {
+ color:#78a23f;   
+}
+
+.panel-heading img{
+max-width: 33%
+}
+
+.btn-custom{
+background: #78a23f;
+border-radius: 0;
+color: #fff;
+border: #78a23f;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+
+.btn-custom:active, .btn-custom:hover {
+    background: #486125;
+    color: #fff;
+    border-color: #486125
+}
+
+.form-group p{
+float: right;
+}
+
+.help {
+margin-top: -15px;
+text-align: left
+}
+
+@media (min-width: 992px) {
+.help a{
+color: #fff  
+}}

@@ -374,15 +374,5 @@ table.dataTable thead .sorting:after {
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .img-responsive {
-        padding-top: 30%;
-        padding-bottom: 7%;
-        }
-
-    .intro .intro-body .intro-text {
-        font-size: 25px;
     }
 }
